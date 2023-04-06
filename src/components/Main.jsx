@@ -150,7 +150,6 @@ export default function Main() {
                 {buttonClicked === false ? (
                   <button
                     onClick={handleSubmit}
-                    disabled={cloudinaryFile}
                     class="py-2 px-4  bg-[#FFFEFE] hover:bg-[#492306] hover:text-white focus:ring-indigo-500 focus:ring-offset-indigo-200 text-[#5C340F] w-32 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
                   >
                     Remove Background
