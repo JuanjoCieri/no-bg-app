@@ -80,7 +80,7 @@ export default function Main() {
 
     const formData = new FormData();
     files.forEach((file) => formData.append("file", file));
-    formData.append("upload_preset", "zrjqzk1n");
+    formData.append("upload_preset", "d1f0jzsc");
 
     const URL = `https://api.cloudinary.com/v1_1/${process.env.REACT_APP_CLOUDINARY_NAME}/image/upload`;
     const data = await fetch(URL, {
